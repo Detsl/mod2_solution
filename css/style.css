@@ -1,0 +1,102 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: center no-repeat url("pictures/futurama_608_01_640x360.jpg")  ;
+    background-size: cover ;
+
+
+
+}
+
+h1,h2 {
+    text-align: center;
+    color: whitesmoke;
+
+}
+h2{
+   padding-top: 2%;
+}
+main {
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(166, 151, 151, 0.49);
+    height: auto;
+    border-radius: 10px;
+}
+.kindOfmenu {
+    display: inline-block;
+    width: 30%;
+    background-color: rgba(10, 0, 31, 0.65);
+    height: 500px;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    padding: 0;
+    color: white;
+
+}
+
+section>div{
+    padding: 5%;
+    margin: 0 auto;
+
+
+}
+.kindOfmenu:hover{
+    border-radius: 5px;
+    background-color: rgba(10, 0, 31, 1);
+    transition-duration: 2s;
+
+}
+/* Creating  responsive library*/
+.container{
+    width: 90%;
+    margin: 20px auto;
+    color: #0a001f;
+}
+@media all and (max-width:992px) and (min-width: 768px) {
+    .kindOfmenu{
+        display: inline-block;
+        width: 46%;
+        background-color: rgba(235, 9, 58, 0.65);
+        height: 250px;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+        padding: 0;
+        color: white;
+    }
+    .kindOfmenu:last-child{
+        width: 94.70%;
+        margin-left: 2.4% ;
+        height: 250px;
+    }
+    .kindOfmenu:hover{
+        border-radius: 5px;
+        background-color: rgba(235, 9, 58, 1);
+        transition-duration: 2s;
+
+    }
+
+}
+@media  (max-width: 768px) {
+
+
+    .kindOfmenu{
+        width: 95%;
+        background-color: rgba(213, 235, 21, 0.65);
+        height: 300px;
+        margin-left: 5% auto;
+        padding: 0;
+        color: white;
+    }
+    .kindOfmenu:hover{
+        border-radius: 5px;
+        background-color: rgba(213, 235, 21, 1);
+        transition-duration: 2s;
+
+    }
+
+}
+
