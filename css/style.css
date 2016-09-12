@@ -22,10 +22,16 @@ h2{
 main {
     width: 90%;
     margin: 10px auto;
-    background-color: rgba(166, 151, 151, 0.49);
+    background-color: rgba(166, 151, 151, 0.33);
     height: auto;
     border-radius: 10px;
 }
+.kindOfmenu>p{
+    position: relative;
+    top:3%;
+    right: -60%;
+}
+
 .kindOfmenu {
     display: inline-block;
     width: 30%;
@@ -88,6 +94,7 @@ section>div{
         background-color: rgba(213, 235, 21, 0.65);
         height: 300px;
         margin-left: 5% auto;
+
         padding: 0;
         color: white;
     }
@@ -97,6 +104,10 @@ section>div{
         transition-duration: 2s;
 
     }
+    .kindOfmenu>p{
+        position: relative;
+        top:3%;
+        right: -70%;
 
 }
 
